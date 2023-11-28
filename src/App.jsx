@@ -6,7 +6,7 @@ import SignUp from "./components/SignUp";
 function App() {
   return (
     <main className="h-full md:h-screen bg-[#e5eff5] p-6 py-12 relative">
-      <div className="rounded-lg overflow-hidden max-w-[375px] md:max-w-[70%] lg:max-w-[50%] absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+      <div className="rounded-lg overflow-hidden m-auto max-w-[375px] md:min-w-[70%] lg:min-w-[60%] lg:max-w-[60%] md:absolute md:top-[50%] md:left-[50%] md:translate-x-[-50%] md:translate-y-[-50%]">
         <Header />
         <div className="md:grid grid-cols-2">
           <SignUp />
